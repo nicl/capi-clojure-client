@@ -18,7 +18,7 @@ Functions accept optional parameters as key-value pairs:
 
 Responses are Clojure maps so accessing fields is easy:
 
-    (-> api/search :response :total)
+    (-> (api/search) :response :total)
 
 ## License
 
