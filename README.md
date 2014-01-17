@@ -1,4 +1,4 @@
-# Clojure client for The Guardian Content APIn
+# Clojure client for The Guardian Content API
 
 Very simple client library for The Guardian Content API.
 
