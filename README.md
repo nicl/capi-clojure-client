@@ -8,7 +8,7 @@ Bring in the main dependency:
 
     (require '[capi-clojure-client.core :as api])
 
-Then make some requests:
+Then make a request:
 
     (api/item "info/developer-blog/2014/jan/16/guardian-hack-day-january-2014-live-blog")
 
