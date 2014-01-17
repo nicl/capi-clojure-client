@@ -1,7 +1,7 @@
 (ns capi-clojure-client.core
   (:require [capi-clojure-client.http :as http]))
 
-(def api-url (atom "http://api.gu.com/"))
+(def api-url (atom "http://content.guardianapis.com/"))
 
 (defn connect!
   "Set base url to use for requests."
